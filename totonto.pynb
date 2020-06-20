@@ -19,10 +19,10 @@
       "Requirement already satisfied: BeautifulSoup4 in c:\\users\\sgupta\\anaconda3\\lib\\site-packages (4.8.2)\n",
       "Requirement already satisfied: soupsieve>=1.2 in c:\\users\\sgupta\\anaconda3\\lib\\site-packages (from BeautifulSoup4) (1.9.5)\n",
       "Requirement already satisfied: requests in c:\\users\\sgupta\\anaconda3\\lib\\site-packages (2.22.0)\n",
-      "Requirement already satisfied: certifi>=2017.4.17 in c:\\users\\sgupta\\anaconda3\\lib\\site-packages (from requests) (2019.11.28)\n",
-      "Requirement already satisfied: urllib3!=1.25.0,!=1.25.1,<1.26,>=1.21.1 in c:\\users\\sgupta\\anaconda3\\lib\\site-packages (from requests) (1.25.8)\n",
       "Requirement already satisfied: idna<2.9,>=2.5 in c:\\users\\sgupta\\anaconda3\\lib\\site-packages (from requests) (2.8)\n",
-      "Requirement already satisfied: chardet<3.1.0,>=3.0.2 in c:\\users\\sgupta\\anaconda3\\lib\\site-packages (from requests) (3.0.4)\n"
+      "Requirement already satisfied: certifi>=2017.4.17 in c:\\users\\sgupta\\anaconda3\\lib\\site-packages (from requests) (2019.11.28)\n",
+      "Requirement already satisfied: chardet<3.1.0,>=3.0.2 in c:\\users\\sgupta\\anaconda3\\lib\\site-packages (from requests) (3.0.4)\n",
+      "Requirement already satisfied: urllib3!=1.25.0,!=1.25.1,<1.26,>=1.21.1 in c:\\users\\sgupta\\anaconda3\\lib\\site-packages (from requests) (1.25.8)\n"
      ]
     }
    ],
@@ -159,7 +159,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 5,
+   "execution_count": 3,
    "metadata": {},
    "outputs": [
     {
@@ -232,7 +232,7 @@
        "6         M7A  Downtown Toronto  Queen's Park, Ontario Provincial Government"
       ]
      },
-     "execution_count": 5,
+     "execution_count": 3,
      "metadata": {},
      "output_type": "execute_result"
     }
@@ -253,7 +253,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 6,
+   "execution_count": 4,
    "metadata": {},
    "outputs": [
     {
@@ -326,7 +326,7 @@
        "M7A          Downtown Toronto  Queen's Park, Ontario Provincial Government"
       ]
      },
-     "execution_count": 6,
+     "execution_count": 4,
      "metadata": {},
      "output_type": "execute_result"
     }
@@ -355,7 +355,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 7,
+   "execution_count": 5,
    "metadata": {},
    "outputs": [
     {
@@ -428,7 +428,7 @@
        "M7A          Downtown Toronto  Queen's Park, Ontario Provincial Government"
       ]
      },
-     "execution_count": 7,
+     "execution_count": 5,
      "metadata": {},
      "output_type": "execute_result"
     }
@@ -449,7 +449,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 9,
+   "execution_count": 6,
    "metadata": {},
    "outputs": [
     {
@@ -458,7 +458,7 @@
        "(103, 2)"
       ]
      },
-     "execution_count": 9,
+     "execution_count": 6,
      "metadata": {},
      "output_type": "execute_result"
     }
