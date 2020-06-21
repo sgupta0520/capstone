@@ -1,0 +1,1351 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_de8da8c718dd447ca07fce84d60bcacc {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_de8da8c718dd447ca07fce84d60bcacc" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_de8da8c718dd447ca07fce84d60bcacc = L.map(
+                                  'map_de8da8c718dd447ca07fce84d60bcacc',
+                                  {center: [43.6542599,-79.3606359],
+                                  zoom: 11,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_c72150d3cc864c06bc3caf5e673337d4 = L.tileLayer(
+                'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 1,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_de8da8c718dd447ca07fce84d60bcacc);
+        
+    
+            var circle_marker_bbea90cf69f540b28d1ee8de11f41787 = L.circleMarker(
+                [43.6542599,-79.3606359],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_de8da8c718dd447ca07fce84d60bcacc);
+            
+    
+            var popup_35b66e85d6c54949b225302c7ef67712 = L.popup({maxWidth: '300'});
+
+            
+                var html_f63016716ca24530990533f53dbaf5bb = $('<div id="html_f63016716ca24530990533f53dbaf5bb" style="width: 100.0%; height: 100.0%;">Regent Park, Harbourfront Cluster 0</div>')[0];
+                popup_35b66e85d6c54949b225302c7ef67712.setContent(html_f63016716ca24530990533f53dbaf5bb);
+            
+
+            circle_marker_bbea90cf69f540b28d1ee8de11f41787.bindPopup(popup_35b66e85d6c54949b225302c7ef67712);
+
+            
+        
+    
+            var circle_marker_3b6ae2b425d5462da9bf3d4322467e7d = L.circleMarker(
+                [43.6623015,-79.3894938],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff5f30",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff5f30",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_de8da8c718dd447ca07fce84d60bcacc);
+            
+    
+            var popup_64ce4459478348c2b916ef15282414e2 = L.popup({maxWidth: '300'});
+
+            
+                var html_774f63d26115456196561da1aac2ee51 = $('<div id="html_774f63d26115456196561da1aac2ee51" style="width: 100.0%; height: 100.0%;">Queen&#39;s Park, Ontario Provincial Government Cluster 8</div>')[0];
+                popup_64ce4459478348c2b916ef15282414e2.setContent(html_774f63d26115456196561da1aac2ee51);
+            
+
+            circle_marker_3b6ae2b425d5462da9bf3d4322467e7d.bindPopup(popup_64ce4459478348c2b916ef15282414e2);
+
+            
+        
+    
+            var circle_marker_81f2646b8b304150badcc667906ca51a = L.circleMarker(
+                [43.6571618,-79.37893709999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00b5eb",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00b5eb",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_de8da8c718dd447ca07fce84d60bcacc);
+            
+    
+            var popup_05d710bdcc6049678b73fc087022f99b = L.popup({maxWidth: '300'});
+
+            
+                var html_c97b7676ebfb4e9596311c55a8f5bbde = $('<div id="html_c97b7676ebfb4e9596311c55a8f5bbde" style="width: 100.0%; height: 100.0%;">Garden District, Ryerson Cluster 3</div>')[0];
+                popup_05d710bdcc6049678b73fc087022f99b.setContent(html_c97b7676ebfb4e9596311c55a8f5bbde);
+            
+
+            circle_marker_81f2646b8b304150badcc667906ca51a.bindPopup(popup_05d710bdcc6049678b73fc087022f99b);
+
+            
+        
+    
+            var circle_marker_0c295b3ad718436283acd76b6958ceb8 = L.circleMarker(
+                [43.6514939,-79.3754179],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_de8da8c718dd447ca07fce84d60bcacc);
+            
+    
+            var popup_6324bf2f9428453586eea302f07d94f9 = L.popup({maxWidth: '300'});
+
+            
+                var html_1b532571be254826afca376c4dad4ada = $('<div id="html_1b532571be254826afca376c4dad4ada" style="width: 100.0%; height: 100.0%;">St. James Town Cluster 1</div>')[0];
+                popup_6324bf2f9428453586eea302f07d94f9.setContent(html_1b532571be254826afca376c4dad4ada);
+            
+
+            circle_marker_0c295b3ad718436283acd76b6958ceb8.bindPopup(popup_6324bf2f9428453586eea302f07d94f9);
+
+            
+        
+    
+            var circle_marker_d581de163bea4e2b829f930944125574 = L.circleMarker(
+                [43.67635739999999,-79.2930312],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_de8da8c718dd447ca07fce84d60bcacc);
+            
+    
+            var popup_26a977f94b3d494184dd3474faeeaed9 = L.popup({maxWidth: '300'});
+
+            
+                var html_674f1b842d114a2e9af3002a0c5d7abe = $('<div id="html_674f1b842d114a2e9af3002a0c5d7abe" style="width: 100.0%; height: 100.0%;">The Beaches Cluster 0</div>')[0];
+                popup_26a977f94b3d494184dd3474faeeaed9.setContent(html_674f1b842d114a2e9af3002a0c5d7abe);
+            
+
+            circle_marker_d581de163bea4e2b829f930944125574.bindPopup(popup_26a977f94b3d494184dd3474faeeaed9);
+
+            
+        
+    
+            var circle_marker_ba5d7e5f86d0476ca3bea3046f711506 = L.circleMarker(
+                [43.644770799999996,-79.3733064],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_de8da8c718dd447ca07fce84d60bcacc);
+            
+    
+            var popup_945f812e295f438dbe0c1663ec370403 = L.popup({maxWidth: '300'});
+
+            
+                var html_0511b3b8c01143c9ab534a545fad24bc = $('<div id="html_0511b3b8c01143c9ab534a545fad24bc" style="width: 100.0%; height: 100.0%;">Berczy Park Cluster 0</div>')[0];
+                popup_945f812e295f438dbe0c1663ec370403.setContent(html_0511b3b8c01143c9ab534a545fad24bc);
+            
+
+            circle_marker_ba5d7e5f86d0476ca3bea3046f711506.bindPopup(popup_945f812e295f438dbe0c1663ec370403);
+
+            
+        
+    
+            var circle_marker_bd5cc0ef1eeb4ddf90c3e9e509eb48ea = L.circleMarker(
+                [43.6579524,-79.3873826],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_de8da8c718dd447ca07fce84d60bcacc);
+            
+    
+            var popup_bb6f6256fc9845679d5fe9300f526cf7 = L.popup({maxWidth: '300'});
+
+            
+                var html_5ca2bcd41b234ba2aa2ff2205d361bfc = $('<div id="html_5ca2bcd41b234ba2aa2ff2205d361bfc" style="width: 100.0%; height: 100.0%;">Central Bay Street Cluster 1</div>')[0];
+                popup_bb6f6256fc9845679d5fe9300f526cf7.setContent(html_5ca2bcd41b234ba2aa2ff2205d361bfc);
+            
+
+            circle_marker_bd5cc0ef1eeb4ddf90c3e9e509eb48ea.bindPopup(popup_bb6f6256fc9845679d5fe9300f526cf7);
+
+            
+        
+    
+            var circle_marker_7c80d33e1f2b47ba890a6f6f1e9a11a6 = L.circleMarker(
+                [43.669542,-79.4225637],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_de8da8c718dd447ca07fce84d60bcacc);
+            
+    
+            var popup_add7a40c3cde4958bde9cfe2f9c62464 = L.popup({maxWidth: '300'});
+
+            
+                var html_421b12233b1b449c9ba79d53f5c58e8b = $('<div id="html_421b12233b1b449c9ba79d53f5c58e8b" style="width: 100.0%; height: 100.0%;">Christie Cluster 5</div>')[0];
+                popup_add7a40c3cde4958bde9cfe2f9c62464.setContent(html_421b12233b1b449c9ba79d53f5c58e8b);
+            
+
+            circle_marker_7c80d33e1f2b47ba890a6f6f1e9a11a6.bindPopup(popup_add7a40c3cde4958bde9cfe2f9c62464);
+
+            
+        
+    
+            var circle_marker_8ad899c2f03343ccbd26cbcfd15f33a8 = L.circleMarker(
+                [43.65057120000001,-79.3845675],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_de8da8c718dd447ca07fce84d60bcacc);
+            
+    
+            var popup_483a4e2eb87042a58a691ccf1784b998 = L.popup({maxWidth: '300'});
+
+            
+                var html_7f2b76cb9d7f4c3eb3b99b2fdc62bc27 = $('<div id="html_7f2b76cb9d7f4c3eb3b99b2fdc62bc27" style="width: 100.0%; height: 100.0%;">Richmond, Adelaide, King Cluster 0</div>')[0];
+                popup_483a4e2eb87042a58a691ccf1784b998.setContent(html_7f2b76cb9d7f4c3eb3b99b2fdc62bc27);
+            
+
+            circle_marker_8ad899c2f03343ccbd26cbcfd15f33a8.bindPopup(popup_483a4e2eb87042a58a691ccf1784b998);
+
+            
+        
+    
+            var circle_marker_cd42e2fd9f6542a29788d2515d685486 = L.circleMarker(
+                [43.66900510000001,-79.4422593],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00b5eb",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00b5eb",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_de8da8c718dd447ca07fce84d60bcacc);
+            
+    
+            var popup_07c34229af544bde999384a41cc8d102 = L.popup({maxWidth: '300'});
+
+            
+                var html_e52025aa52724098a8b23e02ae1cfd8b = $('<div id="html_e52025aa52724098a8b23e02ae1cfd8b" style="width: 100.0%; height: 100.0%;">Dufferin, Dovercourt Village Cluster 3</div>')[0];
+                popup_07c34229af544bde999384a41cc8d102.setContent(html_e52025aa52724098a8b23e02ae1cfd8b);
+            
+
+            circle_marker_cd42e2fd9f6542a29788d2515d685486.bindPopup(popup_07c34229af544bde999384a41cc8d102);
+
+            
+        
+    
+            var circle_marker_241147e4b72b4778bc89b246033c4e78 = L.circleMarker(
+                [43.6408157,-79.38175229999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_de8da8c718dd447ca07fce84d60bcacc);
+            
+    
+            var popup_3b84a0661c7942b0962c8d473f5695c2 = L.popup({maxWidth: '300'});
+
+            
+                var html_cd5ae90e745e4b1bb9ab7b15b6c10fea = $('<div id="html_cd5ae90e745e4b1bb9ab7b15b6c10fea" style="width: 100.0%; height: 100.0%;">Harbourfront East, Union Station, Toronto Islands Cluster 0</div>')[0];
+                popup_3b84a0661c7942b0962c8d473f5695c2.setContent(html_cd5ae90e745e4b1bb9ab7b15b6c10fea);
+            
+
+            circle_marker_241147e4b72b4778bc89b246033c4e78.bindPopup(popup_3b84a0661c7942b0962c8d473f5695c2);
+
+            
+        
+    
+            var circle_marker_f5dd93aab0a142a9badfd22587a76dec = L.circleMarker(
+                [43.647926700000006,-79.4197497],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff5f30",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff5f30",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_de8da8c718dd447ca07fce84d60bcacc);
+            
+    
+            var popup_b77505d7f11a493183c9040f2af78ac9 = L.popup({maxWidth: '300'});
+
+            
+                var html_5081208db59347288c977420a7dca1ff = $('<div id="html_5081208db59347288c977420a7dca1ff" style="width: 100.0%; height: 100.0%;">Little Portugal, Trinity Cluster 8</div>')[0];
+                popup_b77505d7f11a493183c9040f2af78ac9.setContent(html_5081208db59347288c977420a7dca1ff);
+            
+
+            circle_marker_f5dd93aab0a142a9badfd22587a76dec.bindPopup(popup_b77505d7f11a493183c9040f2af78ac9);
+
+            
+        
+    
+            var circle_marker_b5a10d61b99f4fcfa64cd3ec29663aad = L.circleMarker(
+                [43.6795571,-79.352188],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff5f30",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff5f30",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_de8da8c718dd447ca07fce84d60bcacc);
+            
+    
+            var popup_63af750b5f6444a0a07cd486f4fc88cc = L.popup({maxWidth: '300'});
+
+            
+                var html_9305e97ffbee46d7b4a5f547ecbe59d0 = $('<div id="html_9305e97ffbee46d7b4a5f547ecbe59d0" style="width: 100.0%; height: 100.0%;">The Danforth West, Riverdale Cluster 8</div>')[0];
+                popup_63af750b5f6444a0a07cd486f4fc88cc.setContent(html_9305e97ffbee46d7b4a5f547ecbe59d0);
+            
+
+            circle_marker_b5a10d61b99f4fcfa64cd3ec29663aad.bindPopup(popup_63af750b5f6444a0a07cd486f4fc88cc);
+
+            
+        
+    
+            var circle_marker_b067c02bc5024f1292c786909d782364 = L.circleMarker(
+                [43.6471768,-79.38157640000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_de8da8c718dd447ca07fce84d60bcacc);
+            
+    
+            var popup_9ad6c499eb2b44e2acbe4566527efa86 = L.popup({maxWidth: '300'});
+
+            
+                var html_e3c651fe83f642d0abc2a4bb0375b451 = $('<div id="html_e3c651fe83f642d0abc2a4bb0375b451" style="width: 100.0%; height: 100.0%;">Toronto Dominion Centre, Design Exchange Cluster 5</div>')[0];
+                popup_9ad6c499eb2b44e2acbe4566527efa86.setContent(html_e3c651fe83f642d0abc2a4bb0375b451);
+            
+
+            circle_marker_b067c02bc5024f1292c786909d782364.bindPopup(popup_9ad6c499eb2b44e2acbe4566527efa86);
+
+            
+        
+    
+            var circle_marker_b738c488d1aa4a6b91b2513e56bf358d = L.circleMarker(
+                [43.6368472,-79.42819140000002],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_de8da8c718dd447ca07fce84d60bcacc);
+            
+    
+            var popup_dc47a567c2914bd2abdeee4983f6fac4 = L.popup({maxWidth: '300'});
+
+            
+                var html_0f7e47dc204f48bb89c11fd1cba5b679 = $('<div id="html_0f7e47dc204f48bb89c11fd1cba5b679" style="width: 100.0%; height: 100.0%;">Brockton, Parkdale Village, Exhibition Place Cluster 1</div>')[0];
+                popup_dc47a567c2914bd2abdeee4983f6fac4.setContent(html_0f7e47dc204f48bb89c11fd1cba5b679);
+            
+
+            circle_marker_b738c488d1aa4a6b91b2513e56bf358d.bindPopup(popup_dc47a567c2914bd2abdeee4983f6fac4);
+
+            
+        
+    
+            var circle_marker_4ccc777eb68c45cbbe9feae856ae5645 = L.circleMarker(
+                [43.6689985,-79.31557159999998],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff5f30",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff5f30",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_de8da8c718dd447ca07fce84d60bcacc);
+            
+    
+            var popup_1f76dcb05f184f5abba383ec07afe92b = L.popup({maxWidth: '300'});
+
+            
+                var html_9312ad43032c464ea5226235244b7652 = $('<div id="html_9312ad43032c464ea5226235244b7652" style="width: 100.0%; height: 100.0%;">India Bazaar, The Beaches West Cluster 8</div>')[0];
+                popup_1f76dcb05f184f5abba383ec07afe92b.setContent(html_9312ad43032c464ea5226235244b7652);
+            
+
+            circle_marker_4ccc777eb68c45cbbe9feae856ae5645.bindPopup(popup_1f76dcb05f184f5abba383ec07afe92b);
+
+            
+        
+    
+            var circle_marker_9dee02b65ded4edea274d0d390ac1f68 = L.circleMarker(
+                [43.6481985,-79.37981690000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_de8da8c718dd447ca07fce84d60bcacc);
+            
+    
+            var popup_61369d835d4240da9d7ac4ee9df69c1c = L.popup({maxWidth: '300'});
+
+            
+                var html_2f3ecaa37f374e6080725d77d6981244 = $('<div id="html_2f3ecaa37f374e6080725d77d6981244" style="width: 100.0%; height: 100.0%;">Commerce Court, Victoria Hotel Cluster 5</div>')[0];
+                popup_61369d835d4240da9d7ac4ee9df69c1c.setContent(html_2f3ecaa37f374e6080725d77d6981244);
+            
+
+            circle_marker_9dee02b65ded4edea274d0d390ac1f68.bindPopup(popup_61369d835d4240da9d7ac4ee9df69c1c);
+
+            
+        
+    
+            var circle_marker_b372a6502cac4f35854e25c760c1e29b = L.circleMarker(
+                [43.6595255,-79.340923],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_de8da8c718dd447ca07fce84d60bcacc);
+            
+    
+            var popup_c856b01cd683415596cd1529ffb9c26f = L.popup({maxWidth: '300'});
+
+            
+                var html_f523efcf369e4128bbc3532933991155 = $('<div id="html_f523efcf369e4128bbc3532933991155" style="width: 100.0%; height: 100.0%;">Studio District Cluster 5</div>')[0];
+                popup_c856b01cd683415596cd1529ffb9c26f.setContent(html_f523efcf369e4128bbc3532933991155);
+            
+
+            circle_marker_b372a6502cac4f35854e25c760c1e29b.bindPopup(popup_c856b01cd683415596cd1529ffb9c26f);
+
+            
+        
+    
+            var circle_marker_13fad022a64449d3bbe949d407b8ee48 = L.circleMarker(
+                [43.7280205,-79.3887901],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#40ecd4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#40ecd4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_de8da8c718dd447ca07fce84d60bcacc);
+            
+    
+            var popup_8c57f0ad11e848968c628523597e9293 = L.popup({maxWidth: '300'});
+
+            
+                var html_c0681a0490334ed0a56ba92e95dfc17e = $('<div id="html_c0681a0490334ed0a56ba92e95dfc17e" style="width: 100.0%; height: 100.0%;">Lawrence Park Cluster 4</div>')[0];
+                popup_8c57f0ad11e848968c628523597e9293.setContent(html_c0681a0490334ed0a56ba92e95dfc17e);
+            
+
+            circle_marker_13fad022a64449d3bbe949d407b8ee48.bindPopup(popup_8c57f0ad11e848968c628523597e9293);
+
+            
+        
+    
+            var circle_marker_040abc99277945488c9574e68b40f992 = L.circleMarker(
+                [43.7116948,-79.41693559999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#4062fa",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#4062fa",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_de8da8c718dd447ca07fce84d60bcacc);
+            
+    
+            var popup_dc76cc66a7c9406abcd86bcc183dedee = L.popup({maxWidth: '300'});
+
+            
+                var html_1e1a2b7a1d6c4d87955425d499deb751 = $('<div id="html_1e1a2b7a1d6c4d87955425d499deb751" style="width: 100.0%; height: 100.0%;">Roselawn Cluster 2</div>')[0];
+                popup_dc76cc66a7c9406abcd86bcc183dedee.setContent(html_1e1a2b7a1d6c4d87955425d499deb751);
+            
+
+            circle_marker_040abc99277945488c9574e68b40f992.bindPopup(popup_dc76cc66a7c9406abcd86bcc183dedee);
+
+            
+        
+    
+            var circle_marker_244925ab7c9b4cb8b30fca5645cb6bbe = L.circleMarker(
+                [43.7127511,-79.3901975],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_de8da8c718dd447ca07fce84d60bcacc);
+            
+    
+            var popup_ced3595356fa442f8b8da15aa1f6df21 = L.popup({maxWidth: '300'});
+
+            
+                var html_d22708b92bdb427da07c92c4bdf37b95 = $('<div id="html_d22708b92bdb427da07c92c4bdf37b95" style="width: 100.0%; height: 100.0%;">Davisville North Cluster 0</div>')[0];
+                popup_ced3595356fa442f8b8da15aa1f6df21.setContent(html_d22708b92bdb427da07c92c4bdf37b95);
+            
+
+            circle_marker_244925ab7c9b4cb8b30fca5645cb6bbe.bindPopup(popup_ced3595356fa442f8b8da15aa1f6df21);
+
+            
+        
+    
+            var circle_marker_15fa8facccbf495e82d2547bff54a0e8 = L.circleMarker(
+                [43.6969476,-79.41130720000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ffb360",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ffb360",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_de8da8c718dd447ca07fce84d60bcacc);
+            
+    
+            var popup_1e2c2088f086493bac30a7ef886e7c33 = L.popup({maxWidth: '300'});
+
+            
+                var html_5540209d11534dd098551b545cd68f8b = $('<div id="html_5540209d11534dd098551b545cd68f8b" style="width: 100.0%; height: 100.0%;">Forest Hill North &amp; West, Forest Hill Road Park Cluster 7</div>')[0];
+                popup_1e2c2088f086493bac30a7ef886e7c33.setContent(html_5540209d11534dd098551b545cd68f8b);
+            
+
+            circle_marker_15fa8facccbf495e82d2547bff54a0e8.bindPopup(popup_1e2c2088f086493bac30a7ef886e7c33);
+
+            
+        
+    
+            var circle_marker_45723aded95f42e59398e3ef47eaff6d = L.circleMarker(
+                [43.6616083,-79.46476329999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff5f30",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff5f30",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_de8da8c718dd447ca07fce84d60bcacc);
+            
+    
+            var popup_a2a2626f620840f8834228f53076491b = L.popup({maxWidth: '300'});
+
+            
+                var html_6e0375d353d543c598cc5f5397dba2af = $('<div id="html_6e0375d353d543c598cc5f5397dba2af" style="width: 100.0%; height: 100.0%;">High Park, The Junction South Cluster 8</div>')[0];
+                popup_a2a2626f620840f8834228f53076491b.setContent(html_6e0375d353d543c598cc5f5397dba2af);
+            
+
+            circle_marker_45723aded95f42e59398e3ef47eaff6d.bindPopup(popup_a2a2626f620840f8834228f53076491b);
+
+            
+        
+    
+            var circle_marker_6f6870b40e8a4150a8b1119b5214386d = L.circleMarker(
+                [43.7153834,-79.40567840000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_de8da8c718dd447ca07fce84d60bcacc);
+            
+    
+            var popup_c8c15180273440b8adaab1c0ce5f83dd = L.popup({maxWidth: '300'});
+
+            
+                var html_dae44caddedf46f1944c9479037de190 = $('<div id="html_dae44caddedf46f1944c9479037de190" style="width: 100.0%; height: 100.0%;">North Toronto West,  Lawrence Park Cluster 0</div>')[0];
+                popup_c8c15180273440b8adaab1c0ce5f83dd.setContent(html_dae44caddedf46f1944c9479037de190);
+            
+
+            circle_marker_6f6870b40e8a4150a8b1119b5214386d.bindPopup(popup_c8c15180273440b8adaab1c0ce5f83dd);
+
+            
+        
+    
+            var circle_marker_82ef03f4b3994ac48c4f8537697b1d02 = L.circleMarker(
+                [43.6727097,-79.40567840000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00b5eb",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00b5eb",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_de8da8c718dd447ca07fce84d60bcacc);
+            
+    
+            var popup_c18be5c7e0b543fea442761aa42aa0ae = L.popup({maxWidth: '300'});
+
+            
+                var html_f6f0a5c4fc484824bdec39cacb30d5cf = $('<div id="html_f6f0a5c4fc484824bdec39cacb30d5cf" style="width: 100.0%; height: 100.0%;">The Annex, North Midtown, Yorkville Cluster 3</div>')[0];
+                popup_c18be5c7e0b543fea442761aa42aa0ae.setContent(html_f6f0a5c4fc484824bdec39cacb30d5cf);
+            
+
+            circle_marker_82ef03f4b3994ac48c4f8537697b1d02.bindPopup(popup_c18be5c7e0b543fea442761aa42aa0ae);
+
+            
+        
+    
+            var circle_marker_b6d5e73da7c6482284fca71a720ee644 = L.circleMarker(
+                [43.6489597,-79.456325],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_de8da8c718dd447ca07fce84d60bcacc);
+            
+    
+            var popup_7213f5f3f6ad436ca98a739d01c0e3fe = L.popup({maxWidth: '300'});
+
+            
+                var html_fc814d7fb4a3419488baddfa6fa506cb = $('<div id="html_fc814d7fb4a3419488baddfa6fa506cb" style="width: 100.0%; height: 100.0%;">Parkdale, Roncesvalles Cluster 1</div>')[0];
+                popup_7213f5f3f6ad436ca98a739d01c0e3fe.setContent(html_fc814d7fb4a3419488baddfa6fa506cb);
+            
+
+            circle_marker_b6d5e73da7c6482284fca71a720ee644.bindPopup(popup_7213f5f3f6ad436ca98a739d01c0e3fe);
+
+            
+        
+    
+            var circle_marker_390f31ac4d3741168d62625cc844d1cf = L.circleMarker(
+                [43.7043244,-79.3887901],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00b5eb",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00b5eb",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_de8da8c718dd447ca07fce84d60bcacc);
+            
+    
+            var popup_168221fbe6694a59aec55c90d315a291 = L.popup({maxWidth: '300'});
+
+            
+                var html_b75587df8193466e99d194ed4c608a34 = $('<div id="html_b75587df8193466e99d194ed4c608a34" style="width: 100.0%; height: 100.0%;">Davisville Cluster 3</div>')[0];
+                popup_168221fbe6694a59aec55c90d315a291.setContent(html_b75587df8193466e99d194ed4c608a34);
+            
+
+            circle_marker_390f31ac4d3741168d62625cc844d1cf.bindPopup(popup_168221fbe6694a59aec55c90d315a291);
+
+            
+        
+    
+            var circle_marker_1a7417eee99e4e7886f3463f8d0b026c = L.circleMarker(
+                [43.6626956,-79.4000493],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_de8da8c718dd447ca07fce84d60bcacc);
+            
+    
+            var popup_7bda737e75c646b4a2693221a66bbe0d = L.popup({maxWidth: '300'});
+
+            
+                var html_ea96f8bf83444e92ad500bdb69dab612 = $('<div id="html_ea96f8bf83444e92ad500bdb69dab612" style="width: 100.0%; height: 100.0%;">University of Toronto, Harbord Cluster 0</div>')[0];
+                popup_7bda737e75c646b4a2693221a66bbe0d.setContent(html_ea96f8bf83444e92ad500bdb69dab612);
+            
+
+            circle_marker_1a7417eee99e4e7886f3463f8d0b026c.bindPopup(popup_7bda737e75c646b4a2693221a66bbe0d);
+
+            
+        
+    
+            var circle_marker_c24beabcdfa34b45aa726465775d8024 = L.circleMarker(
+                [43.6515706,-79.4844499],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff5f30",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff5f30",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_de8da8c718dd447ca07fce84d60bcacc);
+            
+    
+            var popup_7bfa275e654e40fba2deffaeec377b2b = L.popup({maxWidth: '300'});
+
+            
+                var html_920ac2f839324eddabbf98c9a13c9a4e = $('<div id="html_920ac2f839324eddabbf98c9a13c9a4e" style="width: 100.0%; height: 100.0%;">Runnymede, Swansea Cluster 8</div>')[0];
+                popup_7bfa275e654e40fba2deffaeec377b2b.setContent(html_920ac2f839324eddabbf98c9a13c9a4e);
+            
+
+            circle_marker_c24beabcdfa34b45aa726465775d8024.bindPopup(popup_7bfa275e654e40fba2deffaeec377b2b);
+
+            
+        
+    
+            var circle_marker_c8cbaac30ca3464fb8175ef6f41a5ee5 = L.circleMarker(
+                [43.6895743,-79.38315990000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#c0eb8d",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#c0eb8d",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_de8da8c718dd447ca07fce84d60bcacc);
+            
+    
+            var popup_2adc19d0a96442879458276dce46997b = L.popup({maxWidth: '300'});
+
+            
+                var html_2c338546dc3d4b5cab2d072eb3623c41 = $('<div id="html_2c338546dc3d4b5cab2d072eb3623c41" style="width: 100.0%; height: 100.0%;">Moore Park, Summerhill East Cluster 6</div>')[0];
+                popup_2adc19d0a96442879458276dce46997b.setContent(html_2c338546dc3d4b5cab2d072eb3623c41);
+            
+
+            circle_marker_c8cbaac30ca3464fb8175ef6f41a5ee5.bindPopup(popup_2adc19d0a96442879458276dce46997b);
+
+            
+        
+    
+            var circle_marker_1506a1a088e347eea11ff071bd29a84a = L.circleMarker(
+                [43.6532057,-79.4000493],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_de8da8c718dd447ca07fce84d60bcacc);
+            
+    
+            var popup_2701dbe3c16847169da319bfdd3a2a01 = L.popup({maxWidth: '300'});
+
+            
+                var html_d59f826bb76b46cf82339505a8d45c79 = $('<div id="html_d59f826bb76b46cf82339505a8d45c79" style="width: 100.0%; height: 100.0%;">Kensington Market, Chinatown, Grange Park Cluster 5</div>')[0];
+                popup_2701dbe3c16847169da319bfdd3a2a01.setContent(html_d59f826bb76b46cf82339505a8d45c79);
+            
+
+            circle_marker_1506a1a088e347eea11ff071bd29a84a.bindPopup(popup_2701dbe3c16847169da319bfdd3a2a01);
+
+            
+        
+    
+            var circle_marker_1d5d68664eb64be59b409cdb3fd8a11a = L.circleMarker(
+                [43.68641229999999,-79.4000493],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_de8da8c718dd447ca07fce84d60bcacc);
+            
+    
+            var popup_7c9866b9f60c4afb898ee6995b7cb2f4 = L.popup({maxWidth: '300'});
+
+            
+                var html_98cfc2e162d44f488354c7190b7ec224 = $('<div id="html_98cfc2e162d44f488354c7190b7ec224" style="width: 100.0%; height: 100.0%;">Summerhill West, Rathnelly, South Hill, Forest Hill SE, Deer Park Cluster 1</div>')[0];
+                popup_7c9866b9f60c4afb898ee6995b7cb2f4.setContent(html_98cfc2e162d44f488354c7190b7ec224);
+            
+
+            circle_marker_1d5d68664eb64be59b409cdb3fd8a11a.bindPopup(popup_7c9866b9f60c4afb898ee6995b7cb2f4);
+
+            
+        
+    
+            var circle_marker_96bae1c11a674128a901ee1deb7bf466 = L.circleMarker(
+                [43.6289467,-79.3944199],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_de8da8c718dd447ca07fce84d60bcacc);
+            
+    
+            var popup_e03f584acfb646d0989c282275f9aaf3 = L.popup({maxWidth: '300'});
+
+            
+                var html_9d7e73a3762041e78b1f90fa6f4cc96c = $('<div id="html_9d7e73a3762041e78b1f90fa6f4cc96c" style="width: 100.0%; height: 100.0%;">CN Tower, King and Spadina, Railway Lands, Harbourfront West, Bathurst Quay, South Niagara, Island airport Cluster 1</div>')[0];
+                popup_e03f584acfb646d0989c282275f9aaf3.setContent(html_9d7e73a3762041e78b1f90fa6f4cc96c);
+            
+
+            circle_marker_96bae1c11a674128a901ee1deb7bf466.bindPopup(popup_e03f584acfb646d0989c282275f9aaf3);
+
+            
+        
+    
+            var circle_marker_b44442bb27474118b413d6079c6ab8aa = L.circleMarker(
+                [43.6795626,-79.37752940000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ffb360",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ffb360",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_de8da8c718dd447ca07fce84d60bcacc);
+            
+    
+            var popup_3f4b115df3304322b36a9ae6d9799e5b = L.popup({maxWidth: '300'});
+
+            
+                var html_a6974db5365e4b19b862add29c048764 = $('<div id="html_a6974db5365e4b19b862add29c048764" style="width: 100.0%; height: 100.0%;">Rosedale Cluster 7</div>')[0];
+                popup_3f4b115df3304322b36a9ae6d9799e5b.setContent(html_a6974db5365e4b19b862add29c048764);
+            
+
+            circle_marker_b44442bb27474118b413d6079c6ab8aa.bindPopup(popup_3f4b115df3304322b36a9ae6d9799e5b);
+
+            
+        
+    
+            var circle_marker_229db567d3814ca3b277bdf050c39a80 = L.circleMarker(
+                [43.6464352,-79.37484599999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_de8da8c718dd447ca07fce84d60bcacc);
+            
+    
+            var popup_53f4accb8ba04acdaf85f17533023354 = L.popup({maxWidth: '300'});
+
+            
+                var html_e75e0b50185f4a0d93ecec3e8140e772 = $('<div id="html_e75e0b50185f4a0d93ecec3e8140e772" style="width: 100.0%; height: 100.0%;">Stn A PO Boxes Cluster 0</div>')[0];
+                popup_53f4accb8ba04acdaf85f17533023354.setContent(html_e75e0b50185f4a0d93ecec3e8140e772);
+            
+
+            circle_marker_229db567d3814ca3b277bdf050c39a80.bindPopup(popup_53f4accb8ba04acdaf85f17533023354);
+
+            
+        
+    
+            var circle_marker_8272097388b149dea2f6a1557fbc3f0d = L.circleMarker(
+                [43.667967,-79.3676753],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_de8da8c718dd447ca07fce84d60bcacc);
+            
+    
+            var popup_0b0aff25d2df4c65b750ece209b11edf = L.popup({maxWidth: '300'});
+
+            
+                var html_6f3c444abc964f2c89d703b29aa9bf4c = $('<div id="html_6f3c444abc964f2c89d703b29aa9bf4c" style="width: 100.0%; height: 100.0%;">St. James Town, Cabbagetown Cluster 5</div>')[0];
+                popup_0b0aff25d2df4c65b750ece209b11edf.setContent(html_6f3c444abc964f2c89d703b29aa9bf4c);
+            
+
+            circle_marker_8272097388b149dea2f6a1557fbc3f0d.bindPopup(popup_0b0aff25d2df4c65b750ece209b11edf);
+
+            
+        
+    
+            var circle_marker_32fe04a3ba2e48e0957679b4fdca4efa = L.circleMarker(
+                [43.6484292,-79.3822802],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_de8da8c718dd447ca07fce84d60bcacc);
+            
+    
+            var popup_51d143d811104e2d98a38058bbff4cee = L.popup({maxWidth: '300'});
+
+            
+                var html_63b5d78be1d8408687a8435d89170a7d = $('<div id="html_63b5d78be1d8408687a8435d89170a7d" style="width: 100.0%; height: 100.0%;">First Canadian Place, Underground city Cluster 5</div>')[0];
+                popup_51d143d811104e2d98a38058bbff4cee.setContent(html_63b5d78be1d8408687a8435d89170a7d);
+            
+
+            circle_marker_32fe04a3ba2e48e0957679b4fdca4efa.bindPopup(popup_51d143d811104e2d98a38058bbff4cee);
+
+            
+        
+    
+            var circle_marker_9e8a837db44342d1a8c740c1599d0447 = L.circleMarker(
+                [43.6658599,-79.38315990000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_de8da8c718dd447ca07fce84d60bcacc);
+            
+    
+            var popup_e0bbce20b036487293fac3aa7f7f76da = L.popup({maxWidth: '300'});
+
+            
+                var html_cf5060e1ec9248e985efef87f78ac0ac = $('<div id="html_cf5060e1ec9248e985efef87f78ac0ac" style="width: 100.0%; height: 100.0%;">Church and Wellesley Cluster 0</div>')[0];
+                popup_e0bbce20b036487293fac3aa7f7f76da.setContent(html_cf5060e1ec9248e985efef87f78ac0ac);
+            
+
+            circle_marker_9e8a837db44342d1a8c740c1599d0447.bindPopup(popup_e0bbce20b036487293fac3aa7f7f76da);
+
+            
+        
+    
+            var circle_marker_6e4fde9785b648109d1f0ef08b3b0c33 = L.circleMarker(
+                [43.6627439,-79.321558],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff5f30",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff5f30",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_de8da8c718dd447ca07fce84d60bcacc);
+            
+    
+            var popup_fe7f027a487e4bea99704a2ab7d4644f = L.popup({maxWidth: '300'});
+
+            
+                var html_0622af1ac00a46da946457b32dcdcf8b = $('<div id="html_0622af1ac00a46da946457b32dcdcf8b" style="width: 100.0%; height: 100.0%;">Business reply mail Processing Centre, South Central Letter Processing Plant Toronto Cluster 8</div>')[0];
+                popup_fe7f027a487e4bea99704a2ab7d4644f.setContent(html_0622af1ac00a46da946457b32dcdcf8b);
+            
+
+            circle_marker_6e4fde9785b648109d1f0ef08b3b0c33.bindPopup(popup_fe7f027a487e4bea99704a2ab7d4644f);
+
+            
+        
+</script>
